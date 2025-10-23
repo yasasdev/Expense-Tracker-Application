@@ -1,3 +1,4 @@
+import 'package:expense_tracker_app/screens/home/views/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyAppView extends StatelessWidget {
@@ -17,6 +18,7 @@ class MyAppView extends StatelessWidget {
           tertiary: Color(0xFFFF8D6C)
         )
       ),
+      home: HomeScreen(),
     );
   }
 }
