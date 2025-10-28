@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             ),
             BottomNavigationBarItem(
                 icon: Icon(CupertinoIcons.graph_square_fill),
-                label: 'stats'
+                label: 'stat'
             ),
           ]
       ),
